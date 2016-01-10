@@ -1,8 +1,8 @@
-![image](assets/icon.png =100x)
+![Logo](assets/icon.png)
 
 # Unofficial Monstercat Connect Desktop App 
 
-![image](assets/screenshot.png =500x)
+![image](assets/screenshot.png)
 
 ** I am not affiliated with Monstercat, This was built without their knowledge or consent, if anyone from Monstercat wants this removed I will take it down immediately. **
 
