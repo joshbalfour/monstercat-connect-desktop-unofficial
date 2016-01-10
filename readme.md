@@ -23,8 +23,6 @@ You can download the first build of the app here:
 
 * [Windows](https://github.com/joshbalfour/monstercat-connect-desktop-unofficial/releases/download/v0.1-alpha/Windows.-.Unofficial.Monstercat.Connect.Desktop.Setup.exe)
 
-The windows build has not been tested yet, but should work
-
 ## Ideas/Issues
 
 Please use [the issue tracker](https://github.com/joshbalfour/monstercat-connect-desktop-unofficial/issues/new) to report any bugs you find or any ideas you have that could make the app better!
