@@ -3,7 +3,7 @@
 
 <img src="assets/screenshot.png" width="500">
 
-** I am not affiliated with Monstercat, This was built without their knowledge or consent, if anyone from Monstercat wants this removed I will take it down immediately. **
+> I am not affiliated with Monstercat, This was built without their knowledge or consent, if anyone from Monstercat wants this removed I will take it down immediately.
 
 ## Description
 
