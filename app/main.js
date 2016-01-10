@@ -7,7 +7,8 @@ app.on('ready', function() {
 	
 	var win = new BrowserWindow({
 		width: 800, 
-		height: 600
+		height: 600,
+		title: 'Monstercat Connect Desktop (Unofficial)'
 	});
 
 	globalShortcut.register('MediaPreviousTrack', function() { 

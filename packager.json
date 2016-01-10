@@ -1,0 +1,16 @@
+{
+	"osx" : {
+		"title": "Monstercat Connect Desktop",
+		"background": "assets/osx/installer.jpg",
+		"icon": "assets/osx/mount.icns",
+		"icon-size": 80,
+		"contents": [
+			{ "x": 338, "y": 144, "type": "link", "path": "/Applications" },
+			{ "x": 152, "y": 144, "type": "file" }
+		]
+	},
+	"win" : {
+		"title" : "Monstercat Connect Desktop (Unofficial)",
+		"icon" : "assets/win/icon.ico"
+	}
+}

@@ -1,10 +1,23 @@
 {
-  "name": "monstercat-connect-desktop",
+  "name": "monstercat-connect-desktop-unofficial",
   "version": "1.0.0",
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron main.js",
+
+    "clean" : "rm -rf dist/*",
+
+    "build": "npm run build:osx && npm run build:win",
+    "build:osx": "electron-packager ./app \"Monstercat Connect Desktop (Unofficial)\" --out=dist/osx/ --platform=darwin --arch=x64 --version=0.36.3 --icon=assets/osx/mount.icns && npm run rearrange:osx",
+    "build:win": "electron-packager ./app \"Monstercat Connect Desktop (Unofficial)\" --out=dist/win/ --platform=win32 --arch=ia32 --version=0.36.3 --icon=assets/win/icon.ico && npm run rearrange:win",
+
+    "rearrange:win" : "mv \"./dist/win/Monstercat Connect Desktop (Unofficial)-win32-ia32/\"* ./dist/win/ && rm -rf \"./dist/win/Monstercat Connect Desktop (Unofficial)-win32-ia32/\"",
+    "rearrange:osx" : "mv \"./dist/osx/Monstercat Connect Desktop (Unofficial)-darwin-x64/\"* ./dist/osx/ && rm -rf \"./dist/osx/Monstercat Connect Desktop (Unofficial)-darwin-x64/\"",
+
+    "pack": "npm run clean && npm run pack:osx && npm run pack:win",
+    "pack:osx" : "npm run build:osx && electron-builder \"dist/osx/Monstercat Connect Desktop (Unofficial).app\" --platform=osx --out=\"dist/osx\" --config=packager.json",
+    "pack:win": "npm run build:win && electron-builder \"dist/win/\" --platform=win --out=\"dist/win\" --config=packager.json"
   },
   "author": "Josh Balfour <josh@joshbalfour.co.uk>",
   "license": "ISC",
