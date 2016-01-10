@@ -35,4 +35,5 @@ node_modules
 .node_repl_history
 
 # Build folder
-dist
+dist/*
+!dist/.gitkeep
