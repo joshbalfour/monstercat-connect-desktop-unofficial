@@ -1,8 +1,7 @@
-![Logo](assets/icon.png)
-
+<img src="assets/icon.png" width="100">
 # Unofficial Monstercat Connect Desktop App 
 
-![image](assets/screenshot.png)
+<img src="assets/screenshot.png" width="500">
 
 ** I am not affiliated with Monstercat, This was built without their knowledge or consent, if anyone from Monstercat wants this removed I will take it down immediately. **
 
