@@ -19,15 +19,15 @@ That's literally it.
 
 You can download the first build of the app here:
 
-* [OS X](releases/download/v0.1-alpha/OS.X.-.Unofficial.Monstercat.Connect.Desktop.dmg)
+* [OS X](https://github.com/joshbalfour/monstercat-connect-desktop-unofficial/releases/download/v0.1-alpha/OS.X.-.Unofficial.Monstercat.Connect.Desktop.dmg)
 
-* [Windows](releases/download/v0.1-alpha/Windows.-.Unofficial.Monstercat.Connect.Desktop.Setup.exe)
+* [Windows](https://github.com/joshbalfour/monstercat-connect-desktop-unofficial/releases/download/v0.1-alpha/Windows.-.Unofficial.Monstercat.Connect.Desktop.Setup.exe)
 
 The windows build has not been tested yet, but should work
 
 ## Ideas/Issues
 
-Please use [the issue tracker](issues/new) to report any bugs you find or any ideas you have that could make the app better!
+Please use [the issue tracker](https://github.com/joshbalfour/monstercat-connect-desktop-unofficial/issues/new) to report any bugs you find or any ideas you have that could make the app better!
 
 ## Graphics
 The graphics distributed with and used in this app were grabbed from [https://www.monstercat.com/essentials/](https://www.monstercat.com/essentials/) and belong to Monstercat.
