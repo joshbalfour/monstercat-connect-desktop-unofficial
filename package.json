@@ -20,7 +20,7 @@
     "pack:win": "npm run build:win && electron-builder \"dist/win/\" --platform=win --out=\"dist/win\" --config=packager.json"
   },
   "author": "Josh Balfour <josh@joshbalfour.co.uk>",
-  "license": "ISC",
+  "license": "DBAD",
   "devDependencies": {
     "electron-prebuilt": "^0.36.3"
   }
