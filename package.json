@@ -1,0 +1,14 @@
+{
+  "name": "monstercat-connect-desktop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "author": "Josh Balfour <josh@joshbalfour.co.uk>",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.3"
+  }
+}
